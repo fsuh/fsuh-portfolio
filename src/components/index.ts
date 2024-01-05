@@ -6,3 +6,4 @@ export { default as ProjectCard } from "./ProjectCard";
 export { default as FormInput } from "./FormInput";
 export { default as FormTextArea } from "./FormTextArea";
 export { default as SubmitBtn } from "./SubmitBtn";
+export { default as BtnScrollToTop } from "./BtnScrollToTop";
