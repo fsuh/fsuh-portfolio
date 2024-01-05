@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { HiArrowUp } from "react-icons/hi";
 import BackToTopImage from "../assets/backToTop.png";
 const BtnScrollToTop = () => {
 	const [isVisible, setIsVisible] = useState(false);
