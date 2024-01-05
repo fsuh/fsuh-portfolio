@@ -225,5 +225,5 @@ export const meDetails = {
 	name: "Fuh Suh",
 	title: "Full stack Web Developer",
 	about:
-		"I am a Full Stack Web Developer with 2 years' experience in HTML, CSS, JavaScript, ReactJs, NodeJs, and NextJs. I excel in designing and building scalable web applications, leveraging AWS CI/CD tools and DevOps practices with Docker, Kubernetes, and IaC tools. My passion for coding, coupled with a commitment to continuous learning, drives my pursuit of excellence. Actively seeking a Junior Full-Stack Web Developer role to contribute my extensive skills and enthusiasm to a dynamic software company. With a strong healthcare background, I offer refined soft skills, analytical prowess, and a solution-oriented mindset.",
+		"I am a Full Stack Web Developer with 5 years' experience in HTML, CSS, JavaScript, ReactJs, NodeJs, and NextJs. I excel in designing and building scalable web applications, leveraging AWS CI/CD tools and DevOps practices with Docker, Kubernetes, and IaC tools. My passion for coding, coupled with a commitment to continuous learning, drives my pursuit of excellence. Actively seeking a Junior Full-Stack Web Developer role to contribute my extensive skills and enthusiasm to a dynamic software company. With a strong healthcare background, I offer refined soft skills, analytical prowess, and a solution-oriented mindset.",
 };
