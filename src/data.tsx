@@ -23,8 +23,8 @@ import { TiHtml5 } from "react-icons/ti";
 import fsuhCMS from "./assets/fsuh_cms.png";
 import fsuhShop from "./assets/fsuh_shop.png";
 import fsuhGithubUsers from "./assets/GitHubUser.png";
-//import fsuhAtlas from "./assets/fsuh_worldAtlas.png";
-//import fsuhHospital from "./assets/fsuh_HospitalFinder.png";
+import fsuhAtlas from "./assets/fsuh_worldAtlas.png";
+import fsuhHospital from "./assets/fsuh_HospitalFinder.png";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import { MdContactMail } from "react-icons/md";
 export const menulinks = [
@@ -194,30 +194,30 @@ export const projects = [
 		],
 		text: "With this web app, you can search and learn a few details about github users. This is a tutorial project, but I tackled it differently with newer technologies and libraries",
 	},
-	// {
-	// 	id: nanoid(),
-	// 	img: fsuhHospital,
-	// 	url: "https://finland-hospital-finder.onrender.com/",
-	// 	github: "https://github.com/fsuh/HospitalGPS",
-	// 	title: "Nuring Home Search Finland",
-	// 	technology: ["react", "javaScript", "nodeJs", "mongodb", "Css"],
-	// 	text: "This is a web app specific for users in Finland. It can be used to search for nursing homes anywere in Finland. I used an API from MoH. This project is yet to be complete with all its features. ",
-	// },
-	// {
-	// 	id: nanoid(),
-	// 	img: fsuhAtlas,
-	// 	url: "https://fsuh-atlas.netlify.app/landing",
-	// 	github: "https://github.com/fsuh/countries_App",
-	// 	title: "World Atlas",
-	// 	technology: [
-	// 		"react",
-	// 		"javaScript",
-	// 		"Firebase authentication",
-	// 		"Redux TK",
-	// 		"React Bootstrap",
-	// 	],
-	// 	text: "Learn about the different countries in the world using this web app. The motivation for this app was about learning how use the restCountries API and weather API",
-	// },
+	{
+		id: nanoid(),
+		img: fsuhHospital,
+		url: "https://finland-hospital-finder.onrender.com/",
+		github: "https://github.com/fsuh/HospitalGPS",
+		title: "Nuring Home Search Finland",
+		technology: ["react", "javaScript", "nodeJs", "mongodb", "Css"],
+		text: "This is a web app specific for users in Finland. It can be used to search for nursing homes anywere in Finland. I used an API from MoH. This project is yet to be complete with all its features. ",
+	},
+	{
+		id: nanoid(),
+		img: fsuhAtlas,
+		url: "https://fsuh-atlas.netlify.app/landing",
+		github: "https://github.com/fsuh/countries_App",
+		title: "World Atlas",
+		technology: [
+			"react",
+			"javaScript",
+			"Firebase authentication",
+			"Redux TK",
+			"React Bootstrap",
+		],
+		text: "Learn about the different countries in the world using this web app. The motivation for this app was about learning how use the restCountries API and weather API",
+	},
 ];
 
 export const meDetails = {
@@ -225,5 +225,5 @@ export const meDetails = {
 	name: "Fuh Suh",
 	title: "Full stack Web Developer",
 	about:
-		"I am a Full Stack Web Developer with 5 years' experience in HTML, CSS, JavaScript, ReactJs, NodeJs, and NextJs. I excel in designing and building scalable web applications, leveraging AWS CI/CD tools and DevOps practices with Docker, Kubernetes, and IaC tools. My passion for coding, coupled with a commitment to continuous learning, drives my pursuit of excellence. Actively seeking a Junior Full-Stack Web Developer role to contribute my extensive skills and enthusiasm to a dynamic software company. With a strong healthcare background, I offer refined soft skills, analytical prowess, and a solution-oriented mindset.",
+		"I am a Full Stack Web Developer with 2 years' experience in HTML, CSS, JavaScript, ReactJs, NodeJs, and NextJs. I excel in designing and building scalable web applications, leveraging AWS CI/CD tools and DevOps practices with Docker, Kubernetes, and IaC tools. My passion for coding, coupled with a commitment to continuous learning, drives my pursuit of excellence. Actively seeking a Junior Full-Stack Web Developer role to contribute my extensive skills and enthusiasm to a dynamic software company. With a strong healthcare background, I offer refined soft skills, analytical prowess, and a solution-oriented mindset.",
 };
